@@ -27,10 +27,10 @@ highest_score = 0
 highest_scorer = None
 
 # Iterate through the list of students
-for student in students:
-    if student['score'] > highest_score:
-        highest_score = student['score']
-        highest_scorer = student
+for stud in students:
+    if stud['score'] > highest_score:
+        highest_score = stud['score']
+        highest_scorer = stud
 
 # Print the name of the highest scorer
 print(f"The student who scored the highest is: {highest_scorer['name']}")
